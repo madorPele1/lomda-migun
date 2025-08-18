@@ -93,7 +93,7 @@ const lastPart = () => {
             document.getElementById(`chap-num${page}`).style.color="#396c84";
         }
         if (page === 0) {
-            window.location.href=`page0.html`;
+            window.location.href=`index.html`;
         }
         currentPart = (CHAPTERS_PART[page].length) - 1;
     } else {
@@ -105,7 +105,7 @@ const lastPart = () => {
         document.getElementById("next-button").style.display = "block";
     };
     if (page === 0 && currentPart === 0) {
-        window.location.href=`page0.html`;
+        window.location.href=`index.html`;
     }
 };
 
