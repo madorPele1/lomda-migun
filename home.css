@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('assets/home.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    direction: rtl;
+}
+
+#home{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#welcome-text{
+    position: absolute;
+    font-family: "aharonyRegular";
+    font-size: 6vmin;
+    width: 60vw;
+    right: 2.5vw;
+    top: 30vh;
+}
+
+#start-button{
+    position: absolute;
+    width: 20vw;
+    height: 9vh;
+    background-color: #e0f5ff;
+    border-radius: 10px;
+    border: 4px solid #303144;
+    font-family: "avigulBold";
+    color: #303144;
+    font-size: 3.5vmax;
+    text-align: center;
+    padding-top: 1vh;
+    top: 73vh;
+    right: 4.5vw;
+    transition: 0.5s;
+    box-shadow: 0 1.2vh 0 #303144;
+}
+
+#start-button:hover{
+    cursor: pointer;
+    box-shadow: 0 0vh 0 #303144;
+    border-bottom:4.5px solid #303144;
+    top: 75vh;
+    background-color: #bfe1f1;
+}
+
+@font-face {
+    font-family: avigulBold;
+    src: url(assets/fonts/avigul-bold-fm.098e37816243b45163715f653.86cd763bc8a25b63e23707da1110b42d.woff2);
+  }
+
+@font-face {
+    font-family: aharonyRegular;
+    src: url(assets/fonts/AharoniCLM-Book.ebc8cc40de40352c47f7680e.03b05c30fa65f2e5f5d5877b55186d84.woff2);
+  }
+
+.home-title {
+    height: 30vh;
+    position: absolute;
+    top: 2%;
+    left: 8%;
+    max-width: 90%;
+}

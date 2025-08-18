@@ -1,0 +1,137 @@
+body {
+    background-color: #cbebf5;
+    font-size: 1.5vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-info {
+    background-color: #f4f6f9;
+    width: 70vw;
+    position: relative;
+    right: 0%;
+    border-radius: 5vw;
+    font-size: 1.8vmax;
+    border: #c3c9d0 solid 2px;
+}
+
+.call-title {
+    height: 3.5vh;
+    color: #2f3043;
+    padding-right: 2vw;
+}
+
+.spec-call {
+    padding-top: 2vh;
+    padding-bottom: 0vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid 2px #c3c9d0;
+    transition: all .5s;
+}
+
+.name-info {
+    padding-bottom: 2vh;
+    position: relative;
+    bottom: 0.5vh;
+    padding-right: 2vw;
+    font-size: 2.2vmax;
+}
+
+.spec-call:hover {
+    background-color: #c9dde6;
+    cursor: pointer;
+}
+
+
+.info-div {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: clip;
+    margin-top: 1vh;
+    border-top: solid 0px #c3c9d0;
+    background-color: #f4f6f9;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.info-div p {
+    position: relative;
+    right: 2%;
+    bottom: 10%;
+}
+
+.info-text2 {
+    position: relative;
+    margin: 0;
+    transform: translateY(-1vh);
+    font-size: 1.6vmax;
+}
+
+.info-text1 {
+    font-weight: bold;
+    font-size: 1.7vmax;
+}
+
+.info-div {
+    height: 0;
+    transition: all .4s;
+    /* animation: info-open .5s forwards; */
+}
+
+@keyframes info-open {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 11.5svh;
+    }
+}
+
+.first-call {
+    border-radius: 5vw;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.search-div {
+    width: 25%;
+    position: relative;
+    right: 72%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1.5vh;
+}
+
+.search-img {
+    height: 2vh;
+}
+
+#call3 {
+    border: none;
+    border: none;
+    border-bottom-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+}
+
+#info3 {
+    border-bottom-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+}
+
+#chap3-page1 {
+    display: none;
+}
+
+#chap3-page2 {
+    display: none;
+}
+
+#chap3-page3 {
+    display: none;
+}
+
+#chap3-page4 {
+    display: none;
+}
+
