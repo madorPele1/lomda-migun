@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>לומדת מיגון</title>
+    <link rel="icon" type="image/x-icon" href="assets/icon.svg">
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
@@ -13,5 +14,10 @@
         לומדה זו נועדה לספק את כל המידע ההנדסי הנדרש לפי הנחיות פיקוד העורף</div>
     </div>
     <div id="start-button" onclick="window.location.href=`page1.html`">התחל</div>
+    <div id="credits-button" onclick="document.getElementById('credits-image-div').style.display='block';">קרדיטים</div>
+    <div id="credits-image-div">
+        <img src="assets/credits-img.svg" alt="wanted-increase-image" id="wanted-increase-image"/>
+        <p id="close-increase" onclick="document.getElementById('credits-image-div').style.display='none';">X</p>
+    </div>
 </body>
 </html>

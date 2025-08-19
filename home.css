@@ -37,7 +37,7 @@ body{
     font-size: 3.5vmax;
     text-align: center;
     padding-top: 1vh;
-    top: 73vh;
+    top: 68vh;
     right: 4.5vw;
     transition: 0.5s;
     box-shadow: 0 1.2vh 0 #303144;
@@ -47,8 +47,94 @@ body{
     cursor: pointer;
     box-shadow: 0 0vh 0 #303144;
     border-bottom:4.5px solid #303144;
-    top: 75vh;
+    top: 70vh;
     background-color: #bfe1f1;
+}
+
+#credits-button{
+    position: absolute;
+    width: 8vw;
+    height: 6vh;
+    background-color: #e0f5ff;
+    border-radius: 10px;
+    border: 4px solid #303144;
+    font-family: "avigulBold";
+    color: #303144;
+    font-size: 2vmax;
+    text-align: center;
+    padding-top: 1vh;
+    top: 81vh;
+    right: 4.5vw;
+    transition: 0.5s;
+    box-shadow: 0 .8vh 0 #303144;
+}
+
+#credits-button:hover{
+    cursor: pointer;
+    box-shadow: 0 0vh 0 #303144;
+    border-bottom:4.5px solid #303144;
+    top: 82vh;
+    background-color: #bfe1f1;
+}
+
+#credits-image-div {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #3031449b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 99;
+}
+
+
+#close-increase {
+    font-size: 3.5vmax;
+    font-family: "aharoni";
+    font-weight: 900;
+    color: #396c84;
+    position: absolute;
+    background-color: #c9dde6;
+    border: #396c84 solid 0.2vw;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 1vw;
+    cursor: pointer;
+    top: 2%;
+    right: 5%;
+    animation: close-increase infinite 2s;
+    transition: all .5s;
+    z-index: 999;
+}
+
+#close-increase:hover {
+    font-size: 3.7vmax;
+}
+
+@keyframes close-increase {
+    0% {
+        top: 5%;
+    }
+    50% {
+        top: 4%;
+    }
+    100% {
+        top: 5%;
+    }
+}
+
+#wanted-increase-image {
+    height: 72vh;
+    width: 90vw;
+    max-width: 100vw;
+    position: absolute;
+    top: 12vh;
+    left: 5vw;
 }
 
 @font-face {
