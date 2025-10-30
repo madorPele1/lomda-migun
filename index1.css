@@ -985,8 +985,9 @@ body{
 
 #chap5-page7 .title-page4-chap4 {
     position: absolute;
-    height: 25vh;
-    right: 20vw;
+    height: auto;
+    right: 7vw;
+    width: 100vw;
 }
 
 
